@@ -1,11 +1,14 @@
 {
   "name": "@cyberde/no-cors-proxy-https",
-  "repository": "git://github.com/cyberde/no-cors-proxy-https.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberde/no-cors-proxy-https.git"
+  },
   "version": "1.0.0",
   "description": "Прокси для локальной разработки",
   "main": "./lib",
   "bin": {
-    "no-cors-proxy": "bin/index.js"
+    "no-cors-proxy-https": "bin/index.js"
   },
   "preferGlobal": true,
   "keywords": ["https", "proxy", "web", "cors"],
@@ -14,5 +17,8 @@
   "dependencies": {
     "http-proxy": "^1.18.1",
     "yargs": "^17.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
