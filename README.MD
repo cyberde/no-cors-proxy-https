@@ -3,15 +3,6 @@
 HTTPS-прокси, который добавляет заголовок cors в ответы сервера.
 Полезно, если вам нужно использовать API, который не разрешает запросы из разных источников.
 
-
-### Глобальное использование модуля
-
-```
-$ npm install no-cors-proxy-https -g
-
-$ no-cors-proxy-https -p 8000 -t https://site.api.com
-```
-
 ##### Опции:
 
   * -h _host_  (default: 127.0.0.1)
@@ -23,11 +14,14 @@ $ no-cors-proxy-https -p 8000 -t https://site.api.com
 ### Установка
 
 ```
-npm install no-cors-proxy --save-dev
+npm i git+ssh://github.com/cyberde/no-cors-proxy-https --save-dev
 ```
 
+package.json
 ```
 "scripts": {
-    "start": "no-cors-proxy-https -c path/to/cert.pem -k path/to/key.pem -h 127.0.0.1 -p 8000 -t https://server.api.ru"
+    ....
+    "startNoCorsProxy": "no-cors-proxy-https -c path/to/cert.pem -k path/to/key.pem -h 127.0.0.1 -p 8000 -t https://server.api.ru"
+    ....
 }
 ```
