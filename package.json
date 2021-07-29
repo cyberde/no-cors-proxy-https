@@ -1,7 +1,7 @@
 {
   "name": "devmk-cors-proxy-https",
   "description": "Прокси для обхода CORS + поддержка HTTPS",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "./lib",
   "bin": {
     "no-cors-proxy-https": "bin/index.js"
