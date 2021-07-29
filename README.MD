@@ -14,7 +14,7 @@ HTTPS-прокси, который добавляет заголовок cors в
 ### Установка
 
 ```
-npm i git+ssh://github.com/cyberde/no-cors-proxy-https --save-dev
+npm i cors-proxy-with-https --save-dev
 ```
 
 package.json
