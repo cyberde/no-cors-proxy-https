@@ -4,6 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/cyberde/no-cors-proxy-https.git"
   },
+  "entry": ["http-proxy", "yargs"],
   "version": "1.0.0",
   "description": "Прокси для локальной разработки",
   "main": "./lib",
