@@ -1,0 +1,17 @@
+{
+  "name": "no-cors-proxy-https",
+  "version": "1.0.0",
+  "description": "Прокси для локальной разработки",
+  "main": "./lib",
+  "bin": {
+    "no-cors-proxy": "bin/index.js"
+  },
+  "preferGlobal": true,
+  "keywords": ["https", "proxy", "web", "cors"],
+  "author": "Maxim Kutepov",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "yargs": "^17.0.1"
+  }
+}
