@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 10
           registry-url: https://npm.pkg.github.com
-          scope: '@devmk'
+          scope: '@cyberde'
       - name: npm publish
         run: |
           LATEST=`npm view . version`
