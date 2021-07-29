@@ -1,5 +1,5 @@
 {
-  "name": "devmk-cors-proxy-https",
+  "name": "@cyberde/devmk-cors-proxy-https",
   "description": "Прокси для обхода CORS + поддержка HTTPS",
   "version": "1.0.15",
   "main": "./lib",
