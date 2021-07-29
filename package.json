@@ -1,7 +1,7 @@
 {
-  "name": "@cyberde/devmk-cors-proxy-https",
-  "description": "Прокси для обхода CORS + поддержка HTTPS",
-  "version": "1.0.15",
+  "name": "cors-proxy-with-https",
+  "description": "Прокси для обхода CORS + поддержка HTTPS by devmkru",
+  "version": "1.0.17",
   "main": "./lib",
   "bin": {
     "no-cors-proxy-https": "bin/index.js"
