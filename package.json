@@ -1,5 +1,5 @@
 {
-  "name": "@cyberde/no-cors-proxy-https",
+  "name": "no-cors-proxy-https",
   "repository": {
     "type": "git",
     "url": "git://github.com/cyberde/no-cors-proxy-https.git"
