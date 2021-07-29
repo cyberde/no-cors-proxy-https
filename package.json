@@ -1,5 +1,6 @@
 {
-  "name": "no-cors-proxy-https",
+  "name": "@cyberde/no-cors-proxy-https",
+  "repository": "git://github.com/cyberde/no-cors-proxy-https.git",
   "version": "1.0.0",
   "description": "Прокси для локальной разработки",
   "main": "./lib",
