@@ -1,25 +1,19 @@
 {
-  "name": "@cyberde/no-cors-proxy-https",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cyberde/no-cors-proxy-https.git"
-  },
-  "entry": ["http-proxy", "yargs"],
-  "version": "1.0.11",
-  "description": "Прокси для локальной разработки",
+  "name": "devmk-cors-proxy-https",
+  "description": "Прокси для обхода CORS + поддержка HTTPS",
+  "version": "1.0.14",
   "main": "./lib",
   "bin": {
     "no-cors-proxy-https": "bin/index.js"
   },
-  "preferGlobal": true,
   "keywords": ["https", "proxy", "web", "cors"],
-  "author": "Maxim Kutepov",
+  "author": {
+    "name": "cyberde",
+    "email": "megatau@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "http-proxy": "^1.18.1",
     "yargs": "^17.0.1"
-  },
-  "publishConfig": {
-    "@cyberde:registry": "https://npm.pkg.github.com/"
   }
 }
