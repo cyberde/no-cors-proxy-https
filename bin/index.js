@@ -22,7 +22,7 @@ for (const name of Object.keys(nets)) {
 
 // CONFIG
 const port = argv.p || argv.port
-const host = argv.h || argv.host
+const host = argv.h || argv.host || results["en0"][0]
 const target = argv.t || argv.target
 const key = argv.k || argv.key
 const cert = argv.c || argv.cert

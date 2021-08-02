@@ -5,7 +5,7 @@ HTTPS-прокси, который добавляет заголовок cors в
 
 ##### Опции:
 
-  * -h _host_  (default: 127.0.0.1)
+  * -h _host_  (default: local address)
   * -p _port_  (default: 8000)
   * -t _target_  (default: 127.0.0.1)
   * -k _key_  ключ ssl (path/to/key.pem)
