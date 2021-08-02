@@ -1,7 +1,7 @@
 {
   "name": "cors-proxy-with-https",
   "description": "Прокси для обхода CORS + поддержка HTTPS by devmkru",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "main": "./lib",
   "bin": {
     "cors-proxy-with-https": "bin/index.js"
